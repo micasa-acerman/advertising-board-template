@@ -19,6 +19,9 @@ $color-accent-light: transparentize($color-accent-value,0.1) !important;
 }.btn-def:hover{
 	background-color:$color-accent-dark;
 }
+.btn-def:focus,.btn-outline-def:focus,.btn-noline-def:focus {
+	box-shadow:0 0 0 0.2rem rgba(255, 89, 99, 0.25)
+}
 
 
 .btn-outline-def {
@@ -29,6 +32,10 @@ $color-accent-light: transparentize($color-accent-value,0.1) !important;
 .btn-outline-def:hover {
 	color:white !important;
 	background-color:$color-accent;
+}
+.custom-select {
+	max-width:15em;
+	text-align:center;
 }
 
 
