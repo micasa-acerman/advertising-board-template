@@ -1,10 +1,46 @@
-$color : rgba(255, 45, 45, 0.8);
+$color-accent-value : rgba(246, 49, 49, 0.83);
+$color-accent : $color-accent-value !important;
+$color-accent-dark : opacify($color-accent-value,0.1) !important;
+$color-accent-light: transparentize($color-accent-value,0.1) !important;
 
-.search-bar {
-	margin:2em 0em;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
 .logo {
-	color:rgba(15, 77, 132, 0.8) !important;
-	font-weight:800;
-	letter-spacing:1.4px;
+	color:$color-accent;	
+	letter-spacing:2px;
+	font-weight:500;
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.5rem;
+}
+
+.btn-def {
+	background-color:$color-accent;
+	color:white;
+}.btn-def:hover{
+	background-color:$color-accent-dark;
+}
+
+
+.btn-outline-def {
+	background-color: #fff;
+	color:$color-accent;
+	border: 1px solid $color-accent;
+}
+.btn-outline-def:hover {
+	color:white !important;
+	background-color:$color-accent;
+}
+
+
+.btn-noline-def {
+	background-color:white;
+	color:$color-accent;
+}
+
+.blog-footer {
+	border-top:.05rem solid #e5e5e5;
+	background-color:#f9f9f9;
+	color:#999;
+	padding: 2.5rem 0;
+	text-align:center;
 }

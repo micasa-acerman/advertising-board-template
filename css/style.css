@@ -1,9 +1,2 @@
-.search-bar {
-  margin: 2em 0em; }
-
-.logo {
-  color: rgba(15, 77, 132, 0.8) !important;
-  font-weight: 800;
-  letter-spacing: 1.4px; }
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");.logo{color:rgba(246,49,49,0.83) !important;letter-spacing:2px;font-weight:500;font-family:'Montserrat', sans-serif;font-size:1.5rem}.btn-def{background-color:rgba(246,49,49,0.83) !important;color:white}.btn-def:hover{background-color:rgba(246,49,49,0.93) !important}.btn-outline-def{background-color:#fff;color:rgba(246,49,49,0.83) !important;border:1px solid rgba(246,49,49,0.83) !important}.btn-outline-def:hover{color:white !important;background-color:rgba(246,49,49,0.83) !important}.btn-noline-def{background-color:white;color:rgba(246,49,49,0.83) !important}.blog-footer{border-top:.05rem solid #e5e5e5;background-color:#f9f9f9;color:#999;padding:2.5rem 0;text-align:center}
 /*# sourceMappingURL=style.css.map */
