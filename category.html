@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Revi | Доска объявлений Южной Осетии</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- НАВИГАЦИЯ -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+			<div class="container">
+				<div class="mr-1">
+					<span class="logo-img mr-1"></span>
+					<a class="navbar-brand active logo" href="#">Revi</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Авто</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Недвижимость</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Еще
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<button class="btn btn-def my-2 my-sm-0 mr-2" type="submit" data-toggle="modal" data-target="#exampleModal">Войти</button>
+						<button class="btn btn-outline-def my-2 my-sm-0 mr-2" type="submit">Регистрация</button>	
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- НАВИГАЦИЯ -->
+	
+	<!-- АВТОРИЗАЦИЯ -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-center" id="exampleModalLabel">Авторизация</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="mt-2">
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Электронную почту или номер телефона">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" id="exampleInputPassword" placeholder="Пароль">
+						</div>
+						<div class="form-group form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+						</div>
+						<button type="submit" class="btn btn-def d-block mx-auto">Авторизоваться</button>
+					</form>
+					<div class="mt-3">
+						<small class="text-center d-block mx-auto mb-2">Авторизация через соц сети</small>
+						<div class="d-table mx-auto my-2">
+							<span>
+								<img src="img/fb.svg">
+							</span>
+							<span>
+								<img src="img/vk.svg">
+							</span>
+							<span>
+								<img src="img/ok.svg">
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- АВТОРИЗАЦИЯ -->
+
+
+	<!-- ОСНОВНОЙ БЛОК -->
+	<div id="wrapper" class="container">
+		<!-- ПОИСКОВИК -->
+		<div class="row">
+			<form class="col-md-12 search-bar">
+				<h2 class="h3 my-4">Поиск</h2>
+				<div class="input-group mb-3">
+					<select class="custom-select" id="inputGroupSelect01">
+						<option>Выберите категорию</option>
+						<option selected value="1">Авто</option>
+						<option value="2">Недвижимость</option>
+						<option value="3">Работа</option>
+					</select>
+					<input type="text" aria-label="Поиск" class="form-control" placeholder="Запрос">
+					<select class="custom-select" id="inputGroupSelect01">
+						<option value="1" selected>Все</option>
+						<option value="2">Цхинвал</option>
+						<option value="3">Владикавказ</option>
+					</select>
+					<div class="input-group-append">
+						<button class="btn btn-outline-def" type="button">Найти</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- ПОИСКОВИК -->
+		<!-- ОСНОВНОЙ БЛОК -->
+		<div class="row py-5">
+
+			<!-- НОВЫЕ ОБЪЯВЛЕНИЯ -->
+					<h2 class="col-md-12 h4 mb-4 text-center">Автомобили</h2>
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/auto-1.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+							<div class="card-body">
+								<h5 class="card-title">Toyota Colola, 2012</h5>
+								<h6 class="card-subtitle mb-2 text-muted">1 200 000 р</h6>
+								<p class="card-text">г. Цхинвал</p>
+								<div class="d-flex justify-content-between align-items-right">
+									<small class="text-muted">2 дня назад</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/auto-2.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+							<div class="card-body">
+								<h5 class="card-title">Lada Priora, 2008</h5>
+								<h6 class="card-subtitle mb-2 text-muted">230 000 р</h6>
+								<p class="card-text">г. Цхинвал</p>
+								<div class="d-flex justify-content-between align-items-right">
+									<small class="text-muted">2 дня назад</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/auto-2.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+							<div class="card-body">
+								<h5 class="card-title">Lada Priora, 2008</h5>
+								<h6 class="card-subtitle mb-2 text-muted">230 000 р</h6>
+								<p class="card-text">г. Цхинвал</p>
+								<div class="d-flex justify-content-between align-items-right">
+									<small class="text-muted">2 дня назад</small>
+								</div>
+							</div>
+						</div>
+					</div>
+			<!-- ОСНОВНОЙ БЛОК -->
+	</div>
+</div>
+<!-- НОВЫЕ ОБЪЯВЛЕНИЯ -->
+<!-- ОСНОВНОЙ БЛОК -->
+
+<!-- ФУТЕР -->
+<footer class="blog-footer">
+	<p>Все права защищены.</p>
+	<p>
+		Разработан 
+		<a href="http://mrikaev-dev.ru">Мрикаевым Константином</a>
+	</p>
+</footer>
+<!-- ФУТЕР -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+</body>
+</html>

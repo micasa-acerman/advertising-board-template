@@ -12,6 +12,13 @@ $color-accent-light: transparentize($color-accent-value,0.1) !important;
 	font-family: 'Montserrat', sans-serif;
 	font-size:1.5rem;
 }
+.logo-img {
+	width:1.2em;
+	height:1.2em;
+	display: inline-block;
+	background-color:$color-accent;
+	border-radius: 50%;
+}
 
 .btn-def {
 	background-color:$color-accent;
