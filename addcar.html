@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Revi | Доска объявлений Южной Осетии</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- НАВИГАЦИЯ -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+			<div class="container">
+				<div class="mr-1">
+					<span class="logo-img mr-1"></span>
+					<a class="navbar-brand active logo" href="#">Revi</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Авто</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Недвижимость</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Еще
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<button class="btn btn-def my-2 my-sm-0 mr-2" type="submit" data-toggle="modal" data-target="#exampleModal">Войти</button>
+						<button class="btn btn-outline-def my-2 my-sm-0 mr-2" type="submit">Регистрация</button>	
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- НАВИГАЦИЯ -->
+	
+	<!-- АВТОРИЗАЦИЯ -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-center" id="exampleModalLabel">Авторизация</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="mt-2">
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Электронную почту или номер телефона">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" id="exampleInputPassword" placeholder="Пароль">
+						</div>
+						<div class="form-group form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+						</div>
+						<button type="submit" class="btn btn-def d-block mx-auto">Авторизоваться</button>
+					</form>
+					<div class="mt-3">
+						<small class="text-center d-block mx-auto mb-2">Авторизация через соц сети</small>
+						<div class="d-table mx-auto my-2">
+							<span>
+								<img src="img/fb.svg">
+							</span>
+							<span>
+								<img src="img/vk.svg">
+							</span>
+							<span>
+								<img src="img/ok.svg">
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- АВТОРИЗАЦИЯ -->
+
+
+	<!-- ОСНОВНОЙ БЛОК -->
+	<div id="wrapper" class="container">
+		<h2 class="mt-4 text-center">Подать объявление</h2>
+		<!-- КОНТАКТНАЯ ИНФОРМАЦИЯ -->
+		<div class="border border-revi p-4 my-4">
+			<h3>Контактная информация</h3>
+			<div>Ваше имя: Revi</div>
+			<div>Электронная почта: info@revi.ru</div>
+			<div>Номер телефона: +7(909)-477-89-78</div>
+		</div>
+		<!-- КОНТАКТНАЯ ИНФОРМАЦИЯ -->
+		<!-- ОБЪЯВЛЕНИЕ -->
+		<h3 class="h4">Категория: транспортное средство</h3>
+		<form class="mb-4">
+			<!-- ROW -->
+			<div class="row">
+				<div class="col mx-2 my-1">
+					<label>Марка</label>
+					<select class="form-control" id="exampleFormControlSelect2">
+						<option selected>-</option>
+						<option>Лада</option>
+						<option>Шкода</option>
+						<option>BMW</option>
+						<option>Uaz</option>
+					</select>
+				</div>
+				<div class="col mx-2 my-1">
+					<label>Модель</label>
+					<select class="form-control" id="exampleFormControlSelect2">
+						<option selected>-</option>
+						<option>Приора</option>
+						<option>Гранта</option>
+						<option>21014</option>
+						<option>21010</option>
+					</select>
+				</div>
+			</div>
+			<!-- ROW -->
+
+			<!-- ROW -->
+			<div class="row">
+				<div class="col mx-2 my-1">
+					<label>Год выпуска</label>
+					<select class="form-control" id="exampleFormControlSelect2">
+						<option selected>-</option>
+						<option>2018</option>
+						<option>2017</option>
+						<option>2016</option>
+						<option>2015</option>
+					</select>
+				</div>
+				<div class="col mx-2 my-1">
+					<label>Цвет</label>
+					<select class="form-control" id="exampleFormControlSelect2">
+						<option selected>-</option>
+						<option>Черный</option>
+						<option>Белый</option>
+						<option>Серый</option>
+						<option>Синий</option>
+					</select>
+				</div>
+			</div>			
+			<!-- ROW -->
+			<!-- ROW -->
+			<div class="mx-2 my-1">
+				<label>Цена</label>
+				<input type="number" name="cost" class="form-control">
+			</div>
+			<!-- ROW -->
+			<!-- ROW -->
+			<div class="mx-2 my-1">
+				<label>Описание</label>
+				<textarea cols="4" class="form-control"></textarea>
+			</div>
+			<!-- ROW -->
+			<!-- ROW -->
+			<div class="mx-2 my-1">
+				<label>Фото</label>
+				<input type="file" name="" class="form-control-file">
+			</div>
+			<!-- ROW -->
+			<!-- ROW -->
+			<input type="submit" class="form-control btn btn-def mt-4 mx-2">
+			<!-- ROW -->
+		</form>
+		<!-- ОБЪЯВЛЕНИЕ -->
+	</div>
+	<!-- ОСНОВНОЙ БЛОК -->
+
+	<!-- ФУТЕР -->
+	<footer class="blog-footer">
+		<p>Все права защищены.</p>
+		<p>
+			Разработан 
+			<a href="http://mrikaev-dev.ru">Мрикаевым Константином</a>
+		</p>
+	</footer>
+	<!-- ФУТЕР -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+</body>
+</html>

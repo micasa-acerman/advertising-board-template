@@ -58,3 +58,9 @@ $color-accent-light: transparentize($color-accent-value,0.1) !important;
 	padding: 2.5rem 0;
 	text-align:center;
 }
+.border-revi {
+	border-color: $color-accent;
+}
+.send {
+	min-width:4em;
+}
